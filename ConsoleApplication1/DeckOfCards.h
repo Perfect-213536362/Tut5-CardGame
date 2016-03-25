@@ -1,4 +1,8 @@
 #pragma once
+#ifndef DECKOFCARDS_H
+#define DECKOFCARDS_H
+
+
 #include "Card.h"
 class DeckOfCards :
 	public Card
@@ -6,5 +10,13 @@ class DeckOfCards :
 public:
 	DeckOfCards();
 	~DeckOfCards();
+	void reset();
+	void shuffle();
+	void draw();
+	void peek();
+	int numberOfCards();
+
 };
+
+#endif
 

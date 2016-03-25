@@ -80,12 +80,10 @@
   <ItemGroup>
     <ClInclude Include="Card.h" />
     <ClInclude Include="DeckOfCards.h" />
-    <ClInclude Include="DeckOfClass.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Card.cpp" />
     <ClCompile Include="DeckOfCards.cpp" />
-    <ClCompile Include="DeckOfClass.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

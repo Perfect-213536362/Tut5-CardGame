@@ -18,18 +18,12 @@
     <ClInclude Include="Card.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DeckOfClass.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="DeckOfCards.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Card.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DeckOfClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DeckOfCards.cpp">
