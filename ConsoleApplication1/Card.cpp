@@ -9,7 +9,16 @@ private:
 public:
 	int Cards[20];
     Card::Card()
+
 	{
+		int num;
+		string col;
+
+		if (num > 0 && num < 10, col == "red" || col == "black")
+		{
+			number = num;
+			Colour = col;
+		}
 		
 	}
 
@@ -18,25 +27,13 @@ public:
 	}
 
    bool Card::Colour()
-	{
-		
-		int i;
-		for (i = 0, i <= 20, i++)
-		{
-			if ( Cards[i] <= 10 )
-			return red;
-			else 
-			return black;
-			
-		}
+   {
+	   return Colour;
+	
 	}
 	int Card::number()
 	{
-		int i;
-		for (i = 0, i <= 20, i++)
-		{
-
-		}
+		return number;
 
 	}
 

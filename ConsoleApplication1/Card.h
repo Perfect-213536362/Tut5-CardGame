@@ -7,7 +7,6 @@ private:
 
 
 public:
-	int Cards[];
 	Card();
 	~Card();
 	bool Card::Colour();
