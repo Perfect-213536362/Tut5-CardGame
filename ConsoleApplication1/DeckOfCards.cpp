@@ -20,11 +20,6 @@ public:
 		reset();
 	}
 
-
-	DeckOfCards::~DeckOfCards()
-	{
-
-	}
 	void reset()
 	{
 		CardNum = 20;
