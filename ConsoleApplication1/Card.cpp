@@ -1,11 +1,13 @@
 #include <iostream>
-#include<string>
+#include <string>
 
+using namespace std;
 
 class Card
 {
 private:
-	
+	int numbr = 0;
+	string colour = " ";
 public:
 	int Cards[20];
     Card::Card()
@@ -14,10 +16,10 @@ public:
 		int num;
 		string col;
 
-		if (num > 0 && num < 10, col == "red" || col == "black")
+		if (num > 0 && num < 10 && col == "red" || col =="black")
 		{
-			number = num;
-			Colour = col;
+			numbr = num;
+			colour = col;
 		}
 		
 	}
@@ -26,19 +28,18 @@ public:
 	{
 	}
 
-   bool Card::Colour()
+   string Card::Colour()
    {
-	   return Colour;
+	   return colour;
 	
 	}
 	int Card::number()
 	{
-		return number;
-
-	}
+		return numbr;
+    }
 
 	void Card::print()
 	{
-
+		cout << Colour() << " " << number() << endl;
 	}
 };

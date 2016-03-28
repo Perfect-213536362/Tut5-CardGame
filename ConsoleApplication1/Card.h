@@ -4,10 +4,11 @@
 class Card
 {
 private:
-
+	int numbr = 0;
+	string Colour = " ";
 
 public:
-	Card();
+	Card(int, string);
 	~Card();
 	bool Card::Colour();
 	int Card::number();
